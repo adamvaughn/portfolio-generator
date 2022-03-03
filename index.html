@@ -1,17 +1,76 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Portfolio Demo</title>
-    </head>
-    
-    <body>
-      <h1>Adam Vaughn</h1>
-      <h2><a href="https://github.com/adamvaughn">Github</a></h2>
-    </body>
-    </html>
-    
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+      <div class="container flex-row justify-space-between align-center py-3">
+        <h1 class="page-title text-secondary bg-dark py-2 px-3">Adam Vaughn</h1>
+        <nav class="flex-row">
+          <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/adamvaughn">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container my-5">
+      
+    <section class="my-3" id="about">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
+      <p>Hello, I am a former CPhT turned Web Developer. After 12 years in the healthcare industry I decided that it was time for a change and enrolled in Vanderbilt's coding bootcamp in order to facilitate a change in career.</p>
+    </section>
+  
+      
+    <section class="my-3" id="portfolio">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+      <div class="flex-row justify-space-between">
+      
+          <div class="col-12 mb-2 bg-dark text-light p-3">
+            <h3 class="portfolio-item-title text-light">Run Buddy</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              HTML,CSS
+            </h5>
+            <p>This is a mock up site for a company that specializes in training their customers to run and increase their health.</p>
+            <a href="adamvaughn/run-buddy" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+          <div class="col-12 mb-2 bg-dark text-light p-3">
+            <h3 class="portfolio-item-title text-light">Weather Dashbaord</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              JavaScript,HTML,CSS
+            </h5>
+            <p>A simple web app to view weather in a chosen city.</p>
+            <a href="adamvaughn/weather-dashbaord" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+
+      
+          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+            <h3 class="portfolio-item-title text-light">Robot Gladiator!</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              
+            </h5>
+            <p>A simple text based gladiator brawler where you control a robot which you name to do battle in a series of three fights. Between fights you have the option to purchase a power up or heal using funds earned.</p>
+            <a href="y" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+      </div>
+    </section>
+  
+    </main>
+    <footer class="container text-center py-3">
+      <h3 class="text-dark">&copy; 2022 by Adam Vaughn</h3>
+    </footer>
+  </body>
+  </html>
+  
